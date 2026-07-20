@@ -25,25 +25,26 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { User, UserStatus, ViewState, Job, TaskSubmission, Notification, SystemSettings, Transaction } from "./types";
-import SupabaseConsole from "./components/SupabaseConsole";
-import Mailbox from "./components/Mailbox";
-import JobPostingForm from "./components/JobPostingForm";
-import TaskFeed from "./components/TaskFeed";
-import MyJobsList from "./components/MyJobsList";
-import ActiveTasksList from "./components/ActiveTasksList";
-import TaskHistoryList from "./components/TaskHistoryList";
-import ReceivedSubmissionsList from "./components/ReceivedSubmissionsList";
-import NotificationCenter from "./components/NotificationCenter";
+import SupabaseConsole from "./SupabaseConsole";
+import Mailbox from "./Mailbox";
+import JobPostingForm from "./JobPostingForm";
+import TaskFeed from "./TaskFeed";
+import MyJobsList from "./MyJobsList";
+import ActiveTasksList from "./ActiveTasksList";
+import TaskHistoryList from "./TaskHistoryList";
+import ReceivedSubmissionsList from "./ReceivedSubmissionsList";
+import NotificationCenter from "./NotificationCenter";
 
 // Newly created Step 4 components
-import WalletPage from "./components/WalletPage";
-import AdminDashboard from "./components/AdminDashboard";
-import AdminUserManagement from "./components/AdminUserManagement";
-import AdminJobManagement from "./components/AdminJobManagement";
-import AdminProofManagement from "./components/AdminProofManagement";
-import AdminReports from "./components/AdminReports";
-import AdminSettings from "./components/AdminSettings";
-import AdminSecurity from "./components/AdminSecurity";
+import WalletPage from "./WalletPage";
+import AdminDashboard from "./AdminDashboard";
+import AdminUserManagement from "./AdminUserManagement";
+import AdminJobManagement from "./AdminJobManagement";
+import AdminProofManagement from "./AdminProofManagement";
+import AdminReports from "./AdminReports";
+import AdminSettings from "./AdminSettings";
+import AdminSecurity from "./AdminSecurity";
+
 
 export default function App() {
   // Authentication & View State
