@@ -138,3 +138,5 @@ To configure the application, define these keys inside your active environment o
 - **Backend**: Node.js, Express, tsx, esbuild
 - **Language**: TypeScript
 - **Database**: Local JSON Database Engine
+
+- 
